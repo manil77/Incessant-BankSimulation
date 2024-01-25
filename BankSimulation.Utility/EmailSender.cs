@@ -17,21 +17,25 @@ namespace BankSimulation.Utility
         {
             try
             {
+                var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
+
+
                 //SMTP for Email
                 string subject = "Transaction Alert!";
-                string mailBody = "";
-                string baseURL = "";
-                var userName = "manil.maharjan07@gmail.com";
-                var password = "urpz dswp klrl qfbf";
+                var userName = configuration["AppSettings:UserName"];
+                string password = configuration["AppSettings:SmtpKey"];
 
                 SendEmail(email, userName, password, subject, htmlMessage);
 
                 return "Email Sent";
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 return ex.Message;
             }
-            
+
         }
 
         public static async Task SendEmail(string toEmailAddress, string fromEmailAddress, string fromEmailpwd, string emailSubject, string emailMessage)
@@ -49,14 +53,14 @@ namespace BankSimulation.Utility
 
                 smtp.Host = "smtp.gmail.com";
 
-                
+
                 smtp.UseDefaultCredentials = false;
                 #endregion
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Credentials = new NetworkCredential(fromEmailAddress, fromEmailpwd);
 
                 //recipient
-                
+
                 mail.To.Add(new MailAddress(toEmailAddress));
 
                 mail.IsBodyHtml = true;
