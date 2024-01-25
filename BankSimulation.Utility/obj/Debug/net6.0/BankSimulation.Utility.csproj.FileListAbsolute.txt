@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\bin\Debug\net6.0\BankSimulation.Utility.deps.json
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\bin\Debug\net6.0\BankSimulation.Utility.dll
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\bin\Debug\net6.0\BankSimulation.Utility.pdb
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.AssemblyInfo.cs
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.dll
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\refint\BankSimulation.Utility.dll
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.pdb
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\ref\BankSimulation.Utility.dll
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\bin\Debug\net6.0\BankSimulation.Models.dll
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\bin\Debug\net6.0\BankSimulation.Models.pdb
+C:\Users\user\source\repos\manil77\BankSimulation\BankSimulation.Utility\obj\Debug\net6.0\BankSimulation.Utility.csproj.CopyComplete

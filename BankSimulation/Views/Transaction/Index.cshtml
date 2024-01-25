@@ -1,0 +1,20 @@
+﻿
+
+<form id="transactionForm" method="post" class="form-control">
+
+    <h1>Please do the transaction</h1>
+    <label>
+        <input type="radio" name="transactionType" value="deposit" checked> Deposit
+    </label>
+    <label>
+        <input type="radio" name="transactionType" value="withdraw"> Withdraw
+    </label>
+    <div class="row mt-2">
+        <label>
+            Amount:
+            <input type="number" name="amount" required>
+        </label>
+    </div>
+    <button class="btn btn-primary mt-3" type="submit" asp-controller="Transaction" asp-action="Transact">Submit</button>
+    <p id="resultMessage"></p>
+</form>
